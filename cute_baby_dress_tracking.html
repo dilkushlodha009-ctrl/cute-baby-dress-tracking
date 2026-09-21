@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cute Baby Dress - Order Tracking</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;font-family:Arial,sans-serif;
+  background:linear-gradient(135deg,#fff7fb,#ffeaf3);
+  color:#172033;padding:20px
+}
+.card{
+  max-width:850px;margin:auto;background:#fff;
+  border:2px solid #f6b5cc;border-radius:24px;
+  overflow:hidden;box-shadow:0 12px 35px rgba(0,0,0,.08)
+}
+.header{text-align:center;padding:30px 20px 22px;border-bottom:2px solid #f6b5cc}
+.logo{font-size:42px;font-weight:800;color:#d81b60}
+.tagline{font-size:20px;font-style:italic;margin-top:7px}
+.category{margin-top:10px;font-size:15px}
+.content{padding:30px}
+.title{text-align:center;font-size:38px;font-weight:800;margin:5px 0 25px}
+.notice{
+  background:#fde8f1;border-radius:18px;padding:22px;
+  text-align:center;font-size:23px;font-weight:700;color:#172033;
+  border:1px solid #f6b5cc
+}
+.sub{text-align:center;font-size:17px;line-height:1.6;margin:18px 0 30px;color:#4b5563}
+.order{
+  border:1px solid #f6b5cc;border-radius:16px;overflow:hidden
+}
+.order-title{background:#fde8f1;padding:13px 18px;font-size:20px;font-weight:bold}
+.row{display:flex;justify-content:space-between;padding:14px 18px;border-top:1px solid #eee}
+.steps{display:flex;justify-content:space-between;gap:10px;margin:32px 0 20px}
+.step{flex:1;text-align:center}
+.circle{
+  width:58px;height:58px;border-radius:50%;margin:auto;
+  display:flex;align-items:center;justify-content:center;
+  background:#fce4ec;color:#d81b60;font-weight:bold;font-size:20px
+}
+.step.active .circle{background:#d81b60;color:#fff}
+.step-name{margin-top:9px;font-weight:bold;font-size:14px}
+.footer{text-align:center;border-top:1px solid #eee;padding:22px;color:#555}
+.footer b{color:#d81b60}
+@media(max-width:600px){
+ .logo{font-size:31px}.title{font-size:29px}
+ .notice{font-size:18px}.content{padding:18px}
+ .steps{gap:4px}.step-name{font-size:11px}
+ .circle{width:48px;height:48px}
+}
+</style>
+</head>
+<body>
+<div class="card">
+
+  <div class="header">
+    <div class="logo">Cute Baby Dress</div>
+    <div class="tagline">Little Outfits... Big Smiles...</div>
+    <div class="category">Baby Dress | Kids Wear | Accessories</div>
+  </div>
+
+  <div class="content">
+    <div class="title">📦 Order Tracking</div>
+
+    <div class="notice">
+      Your tracking ID will be activated once your order is shipped.
+    </div>
+
+    <div class="sub">
+      Your order is currently being processed.<br>
+      Once your order is dispatched, the tracking ID and shipping details
+      will become available.
+    </div>
+
+    <div class="order">
+      <div class="order-title">Order Details</div>
+
+      <div class="row">
+        <span><b>Order No.</b></span>
+        <span>CB-003</span>
+      </div>
+
+      <div class="row">
+        <span><b>Customer</b></span>
+        <span>Madhuri</span>
+      </div>
+
+      <div class="row">
+        <span><b>Product</b></span>
+        <span>Red Baby Dress</span>
+      </div>
+
+      <div class="row">
+        <span><b>Quantity</b></span>
+        <span>1</span>
+      </div>
+
+      <div class="row">
+        <span><b>Order Status</b></span>
+        <span>Processing</span>
+      </div>
+    </div>
+
+    <div class="steps">
+      <div class="step active">
+        <div class="circle">✓</div>
+        <div class="step-name">Order Placed</div>
+      </div>
+
+      <div class="step active">
+        <div class="circle">✓</div>
+        <div class="step-name">Processing</div>
+      </div>
+
+      <div class="step">
+        <div class="circle">3</div>
+        <div class="step-name">Shipped<br>(Tracking Active)</div>
+      </div>
+
+      <div class="step">
+        <div class="circle">4</div>
+        <div class="step-name">Delivered</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Thank you for shopping with <b>Cute Baby Dress</b> ❤️
+  </div>
+
+</div>
+</body>
+</html>
